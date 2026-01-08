@@ -37,7 +37,8 @@ npx expo start
 ```
 
 🧱 Tech Stack
-Backend
+
+## Backend
 
 Python
 
@@ -49,7 +50,7 @@ NumPy (interpolation & resampling)
 
 In-memory caching for sessions
 
-Frontend
+## Frontend
 
 Expo (React Native)
 
