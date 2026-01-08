@@ -27,6 +27,7 @@ cd f1-mobile-project
 cd backend
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
+uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 pip install fastapi uvicorn fastf1 numpy
 
 🔧 Frontend setup
